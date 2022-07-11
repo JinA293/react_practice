@@ -1,24 +1,25 @@
 import logo from './logo.svg';
 import './App.css';
+import TransitionGroupExample from './compornents/top';
+import Movie from "./material/movie.mp4"
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <header>
+      <h1>すきなこスカウター</h1>
+    </header>
+    <body>
+      <video>
+        src={Movie}
+        type=video/mp4 
+        autoPlay
+        loop
+      </video>
+      <TransitionGroupExample />
+    </body>
     </div>
+
   );
 }
 

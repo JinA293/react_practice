@@ -7,7 +7,7 @@ function App() {
   return (
     <div className="App">
       <p>練習</p>
-      <Text />
+      <Text /> {/*  出ない */}
       <Table />
     </div>
 

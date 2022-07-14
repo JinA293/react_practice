@@ -1,23 +1,14 @@
 import logo from './logo.svg';
 import './App.css';
-import TransitionGroupExample from './compornents/top';
-import Movie from "./material/movie.mp4"
+import Text from './compornents/text';
+import Table from "./compornents/table"
 
 function App() {
   return (
     <div className="App">
-    <header>
-      <h1>すきなこスカウター</h1>
-    </header>
-    <body>
-      <video>
-        src={Movie}
-        type=video/mp4 
-        autoPlay
-        loop
-      </video>
-      <TransitionGroupExample />
-    </body>
+      <p>練習</p>
+      <Text />
+      <Table />
     </div>
 
   );

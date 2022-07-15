@@ -1,7 +1,7 @@
-import logo from './logo.svg';
 import './App.css';
 import Text from './compornents/text';
-import Table from "./compornents/table"
+import Table from "./compornents/table";
+import Hello from  "./compornents/hello"
 
 function App() {
   return (
@@ -9,6 +9,7 @@ function App() {
       <p>練習</p>
       <Text /> {/*  出ない */}
       <Table />
+      <Hello name="Jin"/>
     </div>
 
   );

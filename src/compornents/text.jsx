@@ -1,6 +1,7 @@
 import * as React from 'react';
 
 export default function Text() {
+    return(
     <>
     <h1 id="text1">h1</h1>
     <h2 id="text2">h2</h2>
@@ -8,4 +9,5 @@ export default function Text() {
     <h4 id="text4">h4</h4>
     <h5 id="text5">h5</h5>
     </>
+    )
     }

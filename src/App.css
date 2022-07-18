@@ -9,19 +9,19 @@
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+    animation: App-logo-spin infinite 10s linear;
   }
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #b12a2a;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: flex-end;
+  justify-content: start;
+  font-size: calc(20px + 2vmin);
+  color: rgb(15, 14, 14);
 }
 
 .App-link {

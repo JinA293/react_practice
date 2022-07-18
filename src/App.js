@@ -1,18 +1,20 @@
-import './App.css';
-import Text from './compornents/text';
-import Table from "./compornents/table";
-import Hello from  "./compornents/hello"
+import React from "react";
 
-function App() {
+// function Square(props) {
+//   return (
+//     <button className="square" onClick={props.onClick}>
+//       {props.value}
+//     </button>
+//   );
+// }
+
+// Board（盤面） コンポーネントから { onClick, value } = props を受け取っている
+const Square = ({ onClick, value }) => {
   return (
-    <div className="App">
-      <p>練習</p>
-      <Text /> 
-      <Table />
-      <Hello name="Jin"/>
-    </div>
-
+    <button className="square" onClick={onClick}>
+      {value}
+    </button>
   );
-}
+};
 
-export default App;
+export default Square;

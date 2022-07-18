@@ -1,20 +1,25 @@
-import React from "react";
+import logo from './logo.svg';
+import './App.css';
 
-// function Square(props) {
-//   return (
-//     <button className="square" onClick={props.onClick}>
-//       {props.value}
-//     </button>
-//   );
-// }
-
-// Board（盤面） コンポーネントから { onClick, value } = props を受け取っている
-const Square = ({ onClick, value }) => {
+function App() {
   return (
-    <button className="square" onClick={onClick}>
-      {value}
-    </button>
+    <div className="App">
+      <header className="App-header">
+        <img src={logo} className="App-logo" alt="logo" />
+        <p>
+          Edit <code>src/App.js</code> and save to reload.
+        </p>
+        <a
+          className="App-link"
+          href="https://reactjs.org"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Learn React
+        </a>
+      </header>
+    </div>
   );
-};
+}
 
-export default Square;
+export default App;

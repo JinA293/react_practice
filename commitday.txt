@@ -1,0 +1,2 @@
+git commit --allow-empty -m "COMMIT" --date="Jun 30 23:45:50 2022 +0900"
+git push origin master
